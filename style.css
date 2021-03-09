@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first_section {
+    align-self: center;
+    display: flex; 
+    flex: auto;
+    flex-wrap: wrap;
+    color: rgb(74, 75, 101);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text1 {
+    padding: 50px 30px 15px;
+    flex: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(74, 75, 101);
+}
+
+.text1 h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.text1 p {
+    font-size: 25px;
+    font-weight: 50;
+}
+
+.first_img {
+    padding: 0px 25px 50px;
+}
+
+.first_section img {
+    width: 100%;
+}
+
+/* Second Section */
+.second_section {
+    flex: auto;
+    background-color: rgb(244, 243, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 75, 101);
+    padding: 0px 0px 60px;
+}
+
+.second_section img {
+    flex: auto;
+    width: 100%;
+}
+
+.second_img {
+    padding: 50px 20px 0px;
+}
+
+.text2 {
+    padding: 10px 5px 0px;
+    margin-bottom: 7px;
+}
+
+.text2 h1 {
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.second_section .sv1, .sv2, .sv3 {
+    padding: 20px 250px 0px;
+}
+
+.second_section h4 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.second_section p {
+    padding: 0px 30px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Third Section */
+.third_section {
+    display: flex;  
+    flex-wrap: wrap;
+    color: rgb(74, 75, 101);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.cap {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.cap h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.cap p {
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0px 20px;
+}
+
+.third_section .port1, .port2, .port3, .port4, .port5, .port6 {
+    padding: 0px 0px 10px;
+    border: 1px solid rgb(244, 243, 255);
+    margin-bottom: 15px;
+}
+
+.third_section h4 {
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.third_section p {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.third_section .jp1, .jp2, .jp3, .jp4, .jp5, .jp6 {
+    width: 100%;
+    padding: 0px 0px 10px;
+}
+
+footer .links{
+    flex: auto;
+    padding: 50px;
+    background-color: rgb(244, 243, 255);
+    text-align: center;
+    color: rgb(74, 75, 101);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.links p {
+    font-size: 14px;
+}
+
+.rayt {
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(74, 75, 101);
+}
+
+
+@media only screen and (min-width: 1000px) {
+    /* First Section */
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .first_section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .first_img {
+        flex: 65%;
+        padding: 30px;
+        margin-right: 50px;
+    }
+
+    .first_section img {
+        width: 100%;
+    }
+
+    .text1 {
+        flex: 30%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        color: rgb(74, 75, 101);
+    }
+
+    .text1 h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .text1 p{
+        font-size: 30px;
+    }
+
+    /* Second Section */
+    .second_section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 35px;
+        width: 100%;
+        background-color: rgb(244, 243, 255);
+        color: rgb(74, 75, 101);
+    }
+
+    .second_img {
+        flex: 40%;
+        padding: 0 10px;
+    }
+
+    .text2 {
+        flex: 60%;
+        padding: 0%;
+    }
+
+    .text2 h1 {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .second_section .sv1, .sv2, .sv3{
+        padding: 30px 335px 0px;
+    }
+    
+    .second_section h4 {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 2px;
+    }
+    
+    .second_section p {
+        padding: 0px 30px 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Third Section */
+    .third_section {
+        display: flex;  
+        flex-wrap: wrap;
+        color: rgb(74, 75, 101);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .cap {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .cap h1 {
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: 550;
+        text-align: center;
+    }
+    
+    .cap p {
+        font-size: 13px;
+        text-align: center;
+        padding: 20px 0px 20px;
+    }
+
+    .third_section h4 {
+        padding-top: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .third_section p {
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .group1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .group1 .port1, .port2, .port3 {
+        flex: 30%;
+        border: 1px solid rgb(244, 243, 255);
+        margin: 0px 10px 0px;
+    }
+
+    .group1 img {
+        width: 100%;
+        padding: 0px 0px 10px;
+    }
+
+    .group2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .group2 .port4, .port5, .port6 {
+        flex: 30%;
+        border: 1px solid rgb(244, 243, 255);
+        margin: 0px 10px 0px;
+    }
+
+    .group2 img {
+        width: 100%;
+        padding: 0px 0px 10px;
+    }
+}
